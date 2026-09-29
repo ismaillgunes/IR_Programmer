@@ -1,0 +1,29 @@
+# Keil MDK - kullaniciya ozel ayarlar
+*.uvguix.*
+*.uvgui.*
+*.scvd
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+MDK-ARM/JLinkLog.txt
+MDK-ARM/JLinkSettings.ini
+
+# Keil MDK - derleme ciktilari
+MDK-ARM/IR_PROGRAMMER/
+*.bin
+*.hex
+*.axf
+*.o
+*.d
+*.crf
+*.lst
+*.map
+*.htm
+*.dep
+*.lnp
+*.sct
+*.iex
+*.build_log.htm
+build_log.txt
+
+# Claude Code yerel ayarlari
+.claude/settings.local.json

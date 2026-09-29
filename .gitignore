@@ -1,0 +1,23 @@
+# Yerel yedek arsivler
+*.rar
+*.zip
+*.7z
+
+# KiCad - yerel gecmis, onbellek, kilit ve kullaniciya ozel ayarlar
+hardware/.history/
+hardware/fp-info-cache
+*.lck
+*.kicad_prl
+*-backups/
+_autosave-*
+*.bak
+*-bak
+
+# KiCad - uretim ciktilari (gerber, BOM, pozisyon dosyalari)
+hardware/production/
+hardware/gerbers/
+hardware/*.zip
+
+# Windows
+Thumbs.db
+desktop.ini
